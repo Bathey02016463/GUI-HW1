@@ -1,0 +1,11 @@
+/* Adds a border to the outer part of the table */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* Adds borders to the table heading row and table data rows */
+table tr th, table tr td {
+    border: 1px solid black;
+    padding: 8px;
+}
